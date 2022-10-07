@@ -3,7 +3,7 @@
 
 <parameter name="url" value="https://dev128325.service-now.com"></parameter>
 <parameter name="username" value="admin"></parameter>
-<parameter name="password" value="Literacy!878!"></parameter>
+<parameter name="password" value="**********"></parameter>
 
 	<test name="serviceNowParamsTestSequential" thread-count="2" verbose="2">
 	
