@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="serviceNowParamsSuite">
 
-<parameter name="url" value="https://dev128325.service-now.com"></parameter>
+<parameter name="url" value="https://********.service-now.com"></parameter>
 <parameter name="username" value="admin"></parameter>
 <parameter name="password" value="**********"></parameter>
 
