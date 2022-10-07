@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="serviceNowParamsSuite">
+
+<parameter name="url" value="https://dev128325.service-now.com"></parameter>
+<parameter name="username" value="admin"></parameter>
+<parameter name="password" value="Literacy!878!"></parameter>
+
+	<test name="serviceNowParamsTestSequential" thread-count="2" verbose="2">
+	
+		<classes>
+		
+			<class name="week5.day2.serviceNow.OrderingMobileTestNG"/>
+			<class name="week5.day2.serviceNow.CreateNewProposalTestNG"/>
+			<class name="week5.day2.serviceNow.CreateNewCallerTestNG"/>
+			<class name="week5.day2.serviceNow.FillMandatoryFieldsTestNG"/>
+		   
+		</classes>
+		
+	</test>
+
+</suite>
